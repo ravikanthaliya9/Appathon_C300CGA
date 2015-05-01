@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_dialog_tool_system_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/chk_CHA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_CHA" />
+
+    <CheckBox
+        android:id="@+id/chk_CHB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_CHB"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/chk_CHC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_CHC" />
+
+    <CheckBox
+        android:id="@+id/chk_CHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_CHD" />
+
+    <CheckBox
+        android:id="@+id/chk_LLA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_LLA" />
+
+    <CheckBox
+        android:id="@+id/chk_LLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_LLB" />
+
+    <CheckBox
+        android:id="@+id/chk_Buffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_Buffer" />
+
+</LinearLayout>

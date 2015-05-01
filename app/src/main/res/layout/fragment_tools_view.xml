@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.appathon.androzacs.c300cga.ToolsView$PlaceholderFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tool_info">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tool_status_info">
+        <TextView
+            android:id="@+id/tool_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tool Status :"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/tool_status"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/tool_name_tv"
+            android:layout_toRightOf="@+id/tool_name_tv"
+            android:text=""/>
+</RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.appathon.androzacs.c300cga.Polygon
+        android:id="@+id/poly1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:sides="5"
+        app:stroke_width="10"
+        app:fill_color="#00f"
+        app:fill_percent="5"
+        app:inscribed_circle="false"
+        android:longClickable="true"/>
+
+
+        <Button
+            android:id="@+id/query_info"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/str_query_info"/>
+
+
+</LinearLayout>

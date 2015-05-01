@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tool_tile_1" type="id"/>
+    <item name="tool_tile_2" type="id"/>
+    <item name="tool_tile_3" type="id"/>
+    <item name="tool_tile_4" type="id"/>
+</resources>

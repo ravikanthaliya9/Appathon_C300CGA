@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_modify_tool"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/acd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Username : " />
+
+    <EditText
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/def"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Password : " />
+
+    <EditText
+        android:id="@+id/ghi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abc"
+        android:layout_below="@+id/def"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

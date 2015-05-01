@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_query_tool"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/layout_dialog"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content" >-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/query_expression"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Query Expression : " />-->
+
+    <EditText
+        android:id="@+id/txt_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Expression : e.g. AT.@_CHA">
+
+        <requestFocus />
+    </EditText>
+<!--</RelativeLayout>-->
+
+    <Button
+        android:id="@+id/btn_send_query"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:text="SEND QUERY"/>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/layout_query_result"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/lbl_query_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="Result:"/>
+
+    <TextView
+        android:id="@+id/txt_query_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/lbl_query_result"
+        android:layout_toRightOf="@+id/lbl_query_result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="" />
+
+</RelativeLayout>
+</LinearLayout>

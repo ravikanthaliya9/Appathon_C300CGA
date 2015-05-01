@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tool_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/tv_tool_name_back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_tool_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:background="@drawable/tv_tool_name_back"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
