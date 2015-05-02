@@ -107,6 +107,7 @@ public class MainActivity extends Activity implements ISocketAction , ISocketCon
         editor.commit();
     }
 
+    //Summy
     @Override
     public void onStart()
     {
